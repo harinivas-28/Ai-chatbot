@@ -1,0 +1,14 @@
+[
+    {
+        "question": "what are the top 5 IMDB rated movies ?",
+        "answer": "1. **The Shawshank Redemption** (1994) - 9.3/10\n2. **The Godfather** (1972) - 9.2/10\n3. **The Godfather Part II** (1974) - 9.0/10\n4. **The Dark Knight** (2008) - 9.0/10\n5. **12 Angry Men** (1957) - 8.9/10"
+    },
+    {
+        "question": "summarize",
+        "answer": "**Summary:**\n\nA user manual is an official document that guides users in operating a specific product. It should be written by an expert familiar with the product and should be structured and written in a way that is easy to understand and follow. The manual should include information on the product's purpose, setup instructions, basic and advanced features, troubleshooting advice, maintenance and care guidelines, safety precautions, technical specifications, warranty information, and contact details for customer support. Visuals, such as images and screenshots, can be included to enhance clarity and understanding."
+    },
+    {
+        "question": "write a java program to filp all bits of an integer",
+        "answer": "```java\npublic class FlipBits {\n\n    public static void main(String[] args) {\n        int num = 12;\n        System.out.println(\"Original number: \" + num);\n\n        // Flip all bits of the number using XOR with -1\n        int flippedNum = num ^ -1;\n\n        System.out.println(\"Flipped number: \" + flippedNum);\n    }\n}\n```"
+    }
+]
